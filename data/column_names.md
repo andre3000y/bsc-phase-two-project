@@ -3,7 +3,7 @@
 * **dateDate** - house was sold
 * **pricePrice** -  is prediction target
 * **bedroomsNumber** -  of Bedrooms/House
-* **bathroomsNumber** -  of bathrooms/bedrooms
+* **bathroomsNumber** -  of bathrooms/House
 * **sqft_livingsquare** -  footage of the home
 * **sqft_lotsquare** -  footage of the lot
 * **floorsTotal** -  floors (levels) in house
