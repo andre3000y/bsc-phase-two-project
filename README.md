@@ -37,4 +37,5 @@ Each of the three methods of feature selection performed very similarly. The res
    ├──exploratory  
       ├──Andre  
       ├──Cameron  
-└── README           README for viewers of this project
+├──Phase 2 presi.pdf PDF of the presentation  
+└── README.md        README for viewers of this project
