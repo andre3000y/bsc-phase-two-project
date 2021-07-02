@@ -30,10 +30,11 @@ Here are the actual numbers. Note that the R-squared maximization model likely o
 ## Conclusion
 Each of the three methods of feature selection performed very similarly. The resulting models are able to explain around 88% (R-squared value) of the variations in the target. The differences likely arise from how long the selection algorithms were allowed to run, as the best-performing model (R-squared maximization) had the most features, and the worst performing model (RMSE minimization) had the fewest features.
 ## Repository Structure
-├──data              Contains original data as well as transformations made in the process  
-├──images            Contains all images, programatic and otherwise
-├──notebooks         Contains final notebook for project, as well as the exploratory notebooks for each team member  
+```
+├──data              Contains original data as well as transformations made in the process  
+├──images            Contains all images, programatic and otherwise  
+├──notebooks         Contains final notebook for project, as well as the exploratory notebooks for each team member  
    ├──exploratory  
       ├──Andre  
       ├──Cameron  
-└── README            README for viewers of this project
+└── README           README for viewers of this project```
