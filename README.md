@@ -23,10 +23,11 @@ These models perform much better than the baseline.
 ![Much more normally distributed than the baseline](images/Residuals.png)
 Again, these residuals are much more normal than the baseline model.
 ### Metrics
-The three models had extremely similar metrics. As such, the y-axes on the following graphs are zoomed in:
+The following is a graph of some metrics calculated on the training data from the 5-fold splits for each model. The three models had extremely similar metrics. As such, the y-axes on the following graphs are zoomed in:
 ![Very little variation in the validation scores of the models](images/Metrics.png)
 Here are the actual numbers. Note that the R-squared maximization model likely only performed best because it was allowed to run for longest (and thus was able to select the most features).
 ![R-squared maximization model has 72 features](images/Table.PNG)
+In the notebook, there is an identical table made using the training data from the 5-fold splits. The lack of substantial differences in the training and testing metrics indicates that none of the three models are overfit.
 ## Conclusion
 Each of the three methods of feature selection performed very similarly. The resulting models are able to explain around 88% (R-squared value) of the variations in the target. The differences likely arise from how long the selection algorithms were allowed to run, as the best-performing model (R-squared maximization) had the most features, and the worst performing model (RMSE minimization) had the fewest features.
 ## Repository Structure
